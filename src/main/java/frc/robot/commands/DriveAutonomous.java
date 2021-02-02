@@ -29,7 +29,8 @@ public class DriveAutonomous extends SequentialCommandGroup {
     new GoForward(drive, 2), 
     new TurnLeft(drive), 
     new GoForward(drive, 2), 
-    new TurnLeft(drive)
+    new TurnLeft(drive),
+    new TurnRight(drive)
     );
     drive.stop();
     
